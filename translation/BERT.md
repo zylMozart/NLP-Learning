@@ -10,12 +10,10 @@ BERT的一个独特特点是它在不同的任务中都可以用相同的结构�
 
 $$
 BERT_{BASE}(L=12,H=768,A=12,Total Parameters=110M)
-
 $$
 
 $$
 BERT_{LARGE}(L=24,H=1024,A=16,Total Parameters=340M)
-
 $$
 
 BERT<sub>BASE</sub>与OpenAL GPT相比，有相同的模型尺寸。但重要的是，BERT Transformer使用双向自注意力，而GPT Transformer使用了有限的自注意力以至于每个token只能关注它左边的内容。
